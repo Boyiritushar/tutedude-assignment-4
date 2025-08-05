@@ -29,6 +29,8 @@ Then tries to read from a non-existent file called sample1.txt.
 
 Since sample1.txt does not exist, the FileNotFoundError is triggered, and the message "file not found" is printed.
 
+and also there is a small bug in the 2nd code as the file name was "f" but in the print line i wrote file check it out , as it was try exception traceback it raise. 
+
 
 
 Code 3: Append to a File and Read Final Content
